@@ -1,0 +1,22 @@
+// --------------------
+// breakpoints
+// --------------------
+
+$phone: 600px;
+$tablet: 992px;
+$desktop: 1200px;
+
+$medium-and-up: "only screen and (min-width: #{$phone+1})";
+$large-and-up: "only screen and (min-width: #{$tablet+1})";
+$small-and-down: "only screen and (max-width: #{$phone})";
+
+
+
+// ---------------------
+// grid config
+// ---------------------
+
+$num-cols: 12;
+$gutter-width: 1.5em;
+$el-top-margin: $gutter-width/3;
+$el-bottom-margin: ($gutter-width*2)/3;
