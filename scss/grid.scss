@@ -1,6 +1,7 @@
 @import '_reset-src.scss';
 @import '_variables.scss';
 @import '_default-settings.scss';
+@import '_helpers.scss';
 
 
 %clearfix {
@@ -14,11 +15,6 @@ body {
 	font-size: $font-size;
 	font-family: $font-family;
 }
-img.responsive-img {
-	max-width: 100%;
-	height: auto;
-}
-
 
 
 .container {
